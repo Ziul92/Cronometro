@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto
+}
+
+h1, h2 {
+    margin: 20px 0 0 0;
+    font-size: 30px;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid;
+    border-radius: 5px;
+    color: black;
+    background: burlywood;
+}
+
+.timer {
+    margin: 5px 0;
+    font-size: 40px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.botao {
+    font-size: 30px;
+    color: crimson;
+    margin: 10px;
+}
